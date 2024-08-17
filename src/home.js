@@ -1,5 +1,6 @@
 import "./styles.css";
 import "./home.css";
+import loadMenuPage from "./menu";
 
 export default function loadHomePage() {
   const content = document.getElementById("content");
@@ -16,6 +17,11 @@ export default function loadHomePage() {
 
   const cta = document.createElement("button");
   cta.textContent = "See the menu";
+  cta.addEventListener("click", () => {
+    const content = document.getElementById("content");
+    content.innerHTML = null;
+    loadMenuPage();
+  });
   container.appendChild(cta);
 
   content.appendChild(container);

@@ -1,0 +1,12 @@
+#info {
+  width: 50%;
+  font-size: 2rem;
+}
+
+#info span, #info a {
+  color: var(--accent);
+}
+
+#info a {
+  cursor: pointer;
+}
