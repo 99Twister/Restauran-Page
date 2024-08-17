@@ -1,1 +1,3 @@
-import "./style.css";
+import loadHomePage from "./home";
+
+loadHomePage();

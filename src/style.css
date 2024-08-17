@@ -1,18 +1,16 @@
+:root {
+  --accent: rgb(230, 180, 60);
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   padding: 0;
   margin: 0;
-}
-
-header {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 1rem 0px;
-  background-color: rgb(40, 40, 40);
 }
 
 button {
@@ -20,8 +18,23 @@ button {
   cursor: pointer;
   border: none;
   background: none;
-  font-size: 2rem;
-  padding: 0 1rem;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0px;
+  background-color: rgb(20, 20, 20);;
+}
+
+nav button {
+  font-size: 2.5rem;
+  padding: 0 2rem;
   margin: 0 2rem;
   color: rgb(218, 218, 218);
 }
