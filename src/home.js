@@ -1,9 +1,10 @@
-import "./style.css";
+import "./styles.css";
 import "./home.css";
 
 export default function loadHomePage() {
   const content = document.getElementById("content");
   const container = document.createElement("div");
+  container.setAttribute("id", "homeScreen")
 
   const header = document.createElement("h1");
   header.textContent = "Royal India";

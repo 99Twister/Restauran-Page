@@ -21,9 +21,6 @@ button {
 }
 
 header {
-  position: absolute;
-  top: 0;
-  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,8 +30,18 @@ header {
 }
 
 nav button {
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 0 2rem;
   margin: 0 2rem;
-  color: rgb(218, 218, 218);
+  color: rgb(220, 220, 220);
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(40, 40, 40);
 }

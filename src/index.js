@@ -1,3 +1,5 @@
-import loadHomePage from "./home";
+import loadHomePage from "./home.js";
+import loadMenuPage from "./menu.js";
 
-loadHomePage();
+// loadHomePage();
+loadMenuPage();

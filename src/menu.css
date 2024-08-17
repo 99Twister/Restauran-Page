@@ -1,0 +1,31 @@
+#container {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4rem;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 4rem;
+}
+
+.card {
+  max-height: 500px;
+  background-color: rgb(50, 50, 50);
+  border-radius: 20px;
+  color: white;
+}
+
+.image {
+  height: 60%;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fthehungarybuddha.com%2Fwp-content%2Fuploads%2F2016%2F04%2FIMG_0328.jpg&f=1&nofb=1&ipt=bb9c0dd8bf62506d3853aeaf4b48d47922c0f06a0a90a6d290e2910a392db9d7&ipo=images);
+  background-size: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card > p {
+  align-content: center;
+  height: 40%;
+  margin: 0;
+  font-size: 1.5rem;
+}
